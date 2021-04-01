@@ -1,0 +1,41 @@
+/*-----------------------------------
+    Small devices (landscape phones, 576px and up)
+------------------------------------*/
+@media (min-width: 576px) {
+ 
+  .recent-posts .row .col-lg-6:nth-of-type(odd) .post-thumb {
+    margin-top: 0;
+    margin-left: 25px;
+  }
+  .recent-posts .row .col-lg-6:nth-of-type(even) .post-thumb {
+    margin-bottom: 0;
+    margin-right: 25px;
+  }
+}
+
+/*-----------------------------------
+    Medium devices (tablets, 768px and up)
+------------------------------------*/
+@media (min-width: 768px) {
+  
+  .featured-img {
+    height: 100%;
+    margin-top: -66px;
+  }
+  .cta-content {
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+  }
+  .cta-content::after {
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+  }
+  .cta-content .subscribe-btn {
+    align-self: flex-end;
+    margin-right: 30px;
+  }
+}
+
+
+
+
